@@ -26,7 +26,7 @@ let books = [
     }
 ];
 
-let nextId = 3;
+let nextId = 103;
 
 app.post("/api/books", (req, res) => {
     const { title, author, category, quantity } = req.body;
